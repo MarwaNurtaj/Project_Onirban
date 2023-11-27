@@ -1,0 +1,97 @@
+*{
+	margin:0;
+	padding: 0;
+	outline: 0;
+
+}
+
+ul,ol{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p,a,span,ul,ol{
+	padding: 0;
+	margin: 0;
+}
+
+
+/*section card part css starts here*/
+
+#card{
+ margin: 80px;	
+}
+
+
+.border_card {
+    border-top-left-radius: 107px;
+    border-top-right-radius: 107px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-color: #eddfdf00;
+    transition: all linear .3s;
+}
+
+
+
+.border_card:hover{
+	box-shadow: 1px 1px 10px black;
+	transform: scaleX(1);
+	transition: all linear .3s;
+	
+}
+
+.card_text{
+	text-align: center;
+	font-weight: 700;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	transition: all linear .3s;
+}
+
+
+.border_card:hover{
+	color: #0564b9;
+	font-size: 17px;
+	transition: all linear .3s;
+}
+
+.gallery_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 87%;
+    border-radius: 102px;
+    width: 100%;
+    background-color: rgb(25 138 213 / 84%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: all linear .3s;
+}
+.img_overlay:hover .gallery_overlay{
+	transform: scale(1);
+	transition: all linear .3s;
+}
+.gallery_overlay a{
+	height: 40px;
+	width: 40px;
+	background-color: white;
+	border-radius: 50%;
+	text-align: center;
+	display: block;
+	line-height: 40px;
+	color: #0a5ddf;
+
+}
+
+/*section card part css ends here*/
+
+
+
+
+
